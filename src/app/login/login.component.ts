@@ -7,13 +7,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./login.component.css']
 })
 export class LoginComponent {
-
-  email: string = "";
-  password: string = "";
-
-  constructor(private http: HttpClient) {}
+  constructor() {}
 
   login() {
-    console.log("Login button clicked");
+    console.log("Hello");
+    
   }
+
 }
